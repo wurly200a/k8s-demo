@@ -4,6 +4,8 @@ Kubernetes の最初の一歩として、「宣言した状態にクラスタが
 
 ![デモ](movies/demo.gif)
 
+スライド: [`slides/kubernetes-intro.pptx`](slides/kubernetes-intro.pptx)
+
 ## このデモで見せること
 
 | | 何をする | 何が見える |
@@ -140,7 +142,3 @@ ffmpeg -i ../movies/demo.gif -movflags +faststart -pix_fmt yuv420p \
 | `driver.sh` | tmux の中で動く本体。デモの流れそのもの |
 | `lib.sh` | 人が打っているように見せる `run` などの小道具 |
 | `tmux.conf` | 録画専用の tmux 設定（普段の設定と混ざらないよう別ソケットで使う） |
-
-## スライド
-
-`slides/kubernetes-intro.pptx`

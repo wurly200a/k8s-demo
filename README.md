@@ -8,9 +8,9 @@ Pod を 1 つ消しても勝手に元の数に戻り、レプリカを増やせ�
 
 ## 収録デモ
 
-| # | ディレクトリ | 内容 | 記事 |
-|---|---|---|---|
-| 00 | [00Intro](00Intro/) | Deployment / Service / Ingress を `apply` して、自己修復とスケールを見る | （準備中） |
+| # | ディレクトリ | 内容 | スライド | 記事 |
+|---|---|---|---|---|
+| 00 | [00Intro](00Intro/) | Deployment / Service / Ingress を `apply` して、自己修復とスケールを見る | [pptx](00Intro/slides/kubernetes-intro.pptx) | （準備中） |
 
 各回のディレクトリに、その回のスライド・マニフェスト・実行手順が揃っています。手を動かす場合は各ディレクトリの README を見てください。
 

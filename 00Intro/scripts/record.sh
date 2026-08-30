@@ -5,6 +5,9 @@ set -euo pipefail
 cd "$(dirname "$0")"
 OUT="${1:-demo.cast}"
 
+# URL=http://<ingress>/ ./record.sh で、デモ中の curl 先を差し替えられる
+if [ -n "${URL:-}" ]; then export URL; fi
+
 command -v asciinema >/dev/null || { echo "asciinema が見つかりません"; exit 1; }
 command -v tmux      >/dev/null || { echo "tmux が見つかりません"; exit 1; }
 

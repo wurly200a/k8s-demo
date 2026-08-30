@@ -6,7 +6,8 @@ cd "$(dirname "$0")"
 source ./lib.sh
 
 NS=k8s-demo
-URL=http://192.168.1.100:8080/
+# 自分の環境に合わせて上書きできる:  URL=http://<ingress>/ ./record.sh
+URL="${URL:-http://192.168.1.100:8080/}"
 M=../manifests
 
 clear
